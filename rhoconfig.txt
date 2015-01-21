@@ -87,7 +87,7 @@ use_bb_full_browser=6
 # Sync and Push server configurations
 # Sync server url, typically this will look like 'http://<hostname>:<port>/application'
 # for example: 'http://localhost:9292/application
-syncserver = 'http://10.186.4.22:9292'
+syncserver = 'http://10.186.5.24:9292'
 
-Push.rhoconnect.pushServer='http://10.186.4.22:8675'
+Push.rhoconnect.pushServer='http://10.186.5.24:8675'
 Push.rhoconnect.pushAppName='someappname'
