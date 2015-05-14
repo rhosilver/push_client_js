@@ -9,7 +9,7 @@ iphone:
   configuration: Release
   sdk: iphonesimulator7.1
   provisionprofile: 
-  codesignidentity: 
+  codesignidentity: "iPhone Developer"
   entitlements: 
   BundleIdentifier: com.rhomobile.pushclientjs
   BundleURLScheme: pushclientjs
@@ -19,5 +19,10 @@ symbian:
   uid: '0xe8a52b1b'
 android:
   version: 4.2.2
+  capabilities:
+  - push
+  push:
+    notifications: none
+    sender: 888725080924
 app_type: rhoelements
-extensions: ["json", "rhoconnect-client", "rhoconnect-push"]
+extensions: ["json", "rhoconnect-client"]
