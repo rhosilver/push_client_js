@@ -9,7 +9,7 @@ iphone:
   configuration: Release
   sdk: iphonesimulator7.1
   provisionprofile: 
-  codesignidentity: 
+  codesignidentity: "iPhone Developer"
   entitlements: 
   BundleIdentifier: com.rhomobile.pushclientjs
   BundleURLScheme: pushclientjs
